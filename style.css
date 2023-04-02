@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.header {
+    display: flex;
+   padding: 40px;
+}
+.logo_header {
+    margin-left: 274px;
+    margin-top: 10px;
+}
+.nav {
+    margin-top: 13px;
+    display: flex;
+    margin-left: 467px;
+}
+.nav-item {
+    margin-left: 40px;
+    transition: 400ms;
+}
+.nav-item:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
+.first {
+    margin-left: 0;
+}
+.line {
+    margin-left: 32px;
+}
+.info {
+    display: flex;
+}
+.logo_whatsup {
+    margin-left: 32px;
+}
+.column_info {
+    margin-left: 14px;
+}
+.road_text {
+color: gray;
+font-size: 15.4px;
+}
+.get_your {  
+    margin-top: 101px;
+    display: flex;
+    width: 1265px;
+    height: 632px;
+    margin-left: 383px;
+}
+
+.large_text {
+    width: 624px;
+    height: 252px;
+    font-size: 64px;
+   
+    line-height: 84px;
+}
+.small_text {
+    display: flex;
+    margin-top: 161px;
+}
+
+.column_text {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.open {
+    color: gray;
+}
+.time {
+    font-size: 18px;
+    line-height: 175%;
+}
+.image_get_your {
+    display: flex;
+    float: right;
+}
+.second_block {
+    display: flex;
+    margin-top: 107px;
+    height: 940px;
+    background-color: #E2E6E9;
+}
+.taking_car {
+    margin-left: 320px;
+    padding-top: 128px;
+    width: 584px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.header_taking_car{
+font-weight: 800;
+font-size: 58px;
+line-height: 76px;
+letter-spacing: -0.03em;
+}
+.info_taking_car_convenient, .info_two{
+    margin-top: 46px;
+    width: 385px;
+    height: 105px;
+    display: flex;
+}
+
+.text_convient, .text_block {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.large_convient, .large{
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.03em;
+}
+.small_convient, .small {
+    color: gray;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.info_taking_car_expert {
+    margin-top: 32px;
+}
+.under_block {
+    display: flex;
+
+   
+}
+.arrow {  
+    margin-left: 21px;
+   margin-top: 32px;
+
+}
+
+.under_text {
+    margin-top: 32px;
+    margin-left: 62px;
+}
+.ordered {
+    width: 625px;
+    height: 562px;
+    margin-top: 155px;
+}
+.header_ordered {
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+letter-spacing: -0.03em;
+}
+.input_block {
+    margin-top: 20px;
+    width: 624px;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+.input_box {
+    margin-top: 3px;
+    width: 624px;
+    height: 70px;
+    font-size: 32px;
+}
+.btn {
+padding: 16px 40px;
+background: #FF6433;
+border-radius: 12px;
+border: lightgray;
+color: aliceblue;
+font-size: 18px;
+margin-top: 32px;
+transition: 400ms;
+}
+.btn:hover {
+    padding: 16px 40px;
+    background: black;
+    border-radius: 12px;
+    border: lightgray;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 32px;
+    cursor: pointer;
+    box-shadow: 16px 16px lightblue;
+}
