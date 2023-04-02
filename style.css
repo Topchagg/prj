@@ -255,3 +255,54 @@ font-weight: 600;
 font-size: 21px;
 
 }
+.fourth_block {
+    height: 1052px;
+    background-color: #F2F2F2;
+}
+.header_of_fourth_block {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 310px;
+    margin-left: 450px;
+    padding: 128px;
+}
+.what_we_offer {
+    font-size: 24px;
+    margin-left: 290px;
+}
+.we_offer {
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -3%;
+    margin-top: 20px;
+}
+.maintenance {
+    margin-left: 190px;
+}
+.block_items {
+    margin-top: 64px;
+    margin-left: 314px;
+}
+.row_block {
+    display: flex;
+}
+.block_item {
+    margin-left: 8px;
+    transition: 400ms;
+}
+.block_item_second {
+    margin-left: 8px;
+    margin-top: 10px;
+    transition: 400ms;
+}
+.block_item:hover {
+    margin-left: 8px;
+    margin-top: 10px;
+    box-shadow: 50px 50px 50px 50px lightblue;
+}
+.block_item_second:hover {
+    margin-left: 8px;
+    margin-top: 10px;
+    box-shadow: 50px 50px 50px 50px   lightblue;
+}
