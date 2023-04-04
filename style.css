@@ -7,6 +7,67 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.btn {
+    padding: 16px 40px;
+    background: #FF6433;
+    border-radius: 12px;
+    border: lightgray;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 32px;
+    transition: 400ms;
+    }
+    .btn:hover {
+        padding: 16px 40px;
+        background: black;
+        border-radius: 12px;
+        border: lightgray;
+        color: aliceblue;
+        font-size: 18px;
+        margin-top: 32px;
+        cursor: pointer;
+        box-shadow: 16px 16px lightblue;
+    }
+    .block_of_images {
+        display: flex;  
+        height: 502px;
+    }
+    .get_in_touch {
+        width: 944px;
+        height: 502px;
+        background-color: #FF6433;
+    }
+    .get_in_touch_large {
+        margin-top: 128px;
+        margin-left: 103px;
+        font-size: 48px;
+        line-height: 67px;
+        color: aliceblue;
+    }
+    .get_touch_btn {
+        margin-top: 48px;
+        margin-left: 128px;
+        background-color: black;
+    }
+    .get_touch_btn:hover {
+        margin-top: 48px;
+        margin-left: 128px;
+        background-color: white;
+        color: black;
+        box-shadow: 16px 16px black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -50,6 +111,14 @@ a {
 color: gray;
 font-size: 15.4px;
 }
+
+
+
+
+
+
+
+
 .get_your {  
     margin-top: 101px;
     display: flex;
@@ -173,27 +242,6 @@ letter-spacing: -0.03em;
     height: 70px;
     font-size: 32px;
 }
-.btn {
-padding: 16px 40px;
-background: #FF6433;
-border-radius: 12px;
-border: lightgray;
-color: aliceblue;
-font-size: 18px;
-margin-top: 32px;
-transition: 400ms;
-}
-.btn:hover {
-    padding: 16px 40px;
-    background: black;
-    border-radius: 12px;
-    border: lightgray;
-    color: aliceblue;
-    font-size: 18px;
-    margin-top: 32px;
-    cursor: pointer;
-    box-shadow: 16px 16px lightblue;
-}
 .third_block {
     height: 800px;
 }
@@ -316,34 +364,7 @@ font-size: 21px;
 .arrow_fourth_block {
     margin-left: 16px; 
 }
-.block_of_images {
-    display: flex;  
-    height: 502px;
-}
-.get_in_touch {
-    width: 944px;
-    height: 502px;
-    background-color: #FF6433;
-}
-.get_in_touch_large {
-    margin-top: 128px;
-    margin-left: 103px;
-    font-size: 48px;
-    line-height: 67px;
-    color: aliceblue;
-}
-.get_touch_btn {
-    margin-top: 48px;
-    margin-left: 128px;
-    background-color: black;
-}
-.get_touch_btn:hover {
-    margin-top: 48px;
-    margin-left: 128px;
-    background-color: white;
-    color: black;
-    box-shadow: 16px 16px black;
-}
+
 .row_info {
     display: flex;
     background-color: #F2F2F2;
@@ -368,6 +389,7 @@ font-size: 21px;
     font-size: 24px;
 }
 
+
 .last_get_in {
     color: aliceblue;
     font-size: 48px;
@@ -382,6 +404,11 @@ font-size: 21px;
 .face {
     margin-left: 0;
 }
+
+
+
+
+
 
 .last_block {
     height: 600px;
@@ -401,7 +428,6 @@ font-size: 21px;
     margin-left: 976px;
     border: solid black white;
 }
-
 .normal {
     color: aliceblue;
     margin-top: 8px;
