@@ -80,6 +80,106 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
     .block_of_images {
         display: flex;  
         height: 502px;
@@ -111,13 +211,6 @@ a {
         color: black;
         box-shadow: 16px 16px black;
     }
-
-
-
-    
-    
-
-
 .last_block {
     height: 600px;
     border: solid black 1px;
