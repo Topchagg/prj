@@ -84,6 +84,9 @@ a {
         display: flex;  
         height: 502px;
     }
+    .img_of_fourth_block {
+        height: 100.1%;
+    }
     .get_in_touch {
         width: 944px;
         height: 502px;
@@ -183,9 +186,7 @@ a {
 .face {
     margin-left: 0;
 }
-.img_of_fourth_block {
-    height: 100.1%;
-}
+
 .main {
     height: 1000px;
 }
