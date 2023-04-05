@@ -41,16 +41,19 @@ a {
         }
         .btn_in_third:hover {
             padding: 16px 40px;
+            background: black;
             border-radius: 12px;
-            border: aliceblue;
-            background-color: aliceblue;
-            color: black;
+            border: lightgray;
+            color: aliceblue;
             font-size: 18px;
             margin-top: 32px;
             cursor: pointer;
-            box-shadow: 16px 16px black;
-           
+            box-shadow: 16px 16px lightblue;
         }
+        .arrow:hover {
+            cursor: pointer;
+        }
+    
     
 
 
@@ -101,7 +104,7 @@ a {
     }
 
     .main {
-        height: 3600px;
+        height: 2950px;
     }
     .first_block {
         height: 700px;
@@ -180,6 +183,7 @@ a {
         font-size: 20px;
     }
     .arrow {
+        transition: 500ms;
         margin-top: 1px;
         margin-left: 16px;
     }   
@@ -234,7 +238,6 @@ a {
     .second_block_in_third {
         width: 1259px;
         height: 489px;
-        border: solid black 1px;
         margin-left: 320px;
         margin-top: 128px;
         display: flex;
@@ -242,16 +245,12 @@ a {
     .second_text_block_in_third {
         width: 547px;
         height: 489px;
-        border: solid black 1px;
-
-
     }
     .text_block_in_third {
 
         margin-left: 88px;
         width: 547px;
         height: 489px;
-        border: solid black;
     }
     .diagnose_car_problems {
         line-height: 67px;
