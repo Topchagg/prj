@@ -76,13 +76,111 @@ a {
     color: gray;
     font-size: 15.4px;
     }
+    .main {
+        height: 1700px;
+        display: flex;
 
+    
+    }
 
+    .header_div {
+        position: absolute;
+        margin-top: -200px;
+        background-color: white;
+        font-size: 64px;
+    }
 
+    .first_block {
+        margin-top: 200px;
+        width: 330px;
+        height: 1100px;
+        margin-left: 320px;
+        background-color: #F5F5F5;
+    }
+    .item-block {
+        height: 670px;
+        background-color: #F5F5F5;
 
-
-
-
+    }
+    .other_service {
+        font-size: 32px;
+        padding: 32px;
+    }
+    .item-list {
+        display: flex;
+        flex-direction: column;
+        background-color: inherit;
+    }
+    .item-block-list  {
+        width: 264px;
+        height: 158px;
+        background-color: inherit;
+        margin: 32px;
+    }
+    .text-block {
+        width: 330px;
+        height: 458px;
+    }
+    .small-block {
+        height: 133px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .icon {
+        width: 47px;
+        height: 47px;
+    }
+    .small-block:first-child {
+        height: 133px;
+        margin-top: 48px;
+    }
+    .second-column-block {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+      
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    .big-text {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .small-text {
+        line-height: 25px;
+        margin-top: 8px;
+        color: gray;
+    }
+    .second_block {
+        margin-top: 200px;
+        height: 1354px;
+        width: 854px;
+        margin-left: 110px;
+       
+    }
+    .font-small {
+        line-height: 31.5px;
+        color: gray;
+        margin-top: 24px;
+    }
+    .header-text-second-block {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+    .second-header-text {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 68px;
+    }
+    .last-font {
+        margin-top: 32px;
+    }
+    
 
 
 
@@ -278,10 +376,6 @@ a {
 }
 .face {
     margin-left: 0;
-}
-
-.main {
-    height: 1000px;
 }
 .footer{
     height: 157px;
